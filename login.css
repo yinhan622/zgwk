@@ -1,0 +1,197 @@
+body, div, input, p, ul, li {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+/*登录头部*/
+#top {
+  width: 100%;
+  height: 100%; }
+  #top .top {
+    width: 1190px;
+    height: 100px;
+    margin: 0 auto; }
+
+.header, .header-p {
+  float: left; }
+
+.picture {
+  float: right; }
+
+.header a {
+  display: block;
+  width: 174px;
+  height: 75px;
+  float: left;
+  padding-right: 20px;
+  margin-top: 15px;
+  border-right: 1px solid #e6e6e6; }
+
+.header span {
+  display: block;
+  float: left;
+  line-height: 100px;
+  font-size: 30px;
+  color: #989898;
+  margin-left: 15px; }
+
+.top p {
+  font-size: 12px;
+  margin-top: 44px;
+  margin-left: 40px; }
+  .top p img {
+    vertical-align: bottom; }
+
+.top a {
+  color: #666666; }
+/*登录主体*/
+#container {
+  width: 100%;
+  height: 500px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow: hidden;
+  background: url("../img/login/rBADvVtoGoGANZQwAADn7t5mTY4580.jpg") no-repeat center;
+  cursor: pointer; }
+.top img{margin-top:15px;}
+
+
+#cover {
+  width: 1190px;
+  height: 379px;
+  margin: 40px auto 0; }
+  #cover form {
+    display: block;
+    margin-top: 0; }
+  #cover .login {
+    width: 358px;
+    float: right;
+    background: #fff;
+    position: relative;
+    top: 14px;
+    right: 20px; }
+
+.login_top {
+  width: 358px;
+  height: 55px; }
+  .login_top ul li {
+    width: 177px;
+    height: 54px;
+    float: left;
+    line-height: 54px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid #e6e6e6; }
+    .login_top ul li span {
+      width: 179px;
+      height: 20px;
+      line-height: 20px;
+      border-right: 1px solid #e6e6e6;
+      margin-top: 18px;
+      color: #666666;
+      display: inline-block; }
+  .login_top .on {
+    color: #f60;
+    font-weight: bold; }
+
+.input_1 {
+  width: 318px;
+  height: 104px;
+  margin: 40px auto 20px;
+  position: relative; }
+  .input_1 #uname, .input_1 #upwd {
+    width: 270px;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    padding-left: 40px; }
+
+.upwd span {
+  position: absolute;
+  top: 10px;
+  left: 10px; }
+
+.name img {
+  position: absolute;
+  top: 45px;
+  left: 10px; }
+
+.input_2 {
+  width: 100%;
+  height: 56px; }
+  .input_2 .code {
+    width: 123px;
+    margin-left: 20px;
+    color: #9a9a9a;
+    float: left; }
+  .input_2 img {
+    vertical-align: bottom; }
+  .input_2 a {
+    display: block;
+    float: right;
+    font-size: 14px;
+    margin-right: 30px;
+    color: #3f8fee; }
+  .input_2 p {
+    color: #ffffff;
+    height: 56px;
+    line-height: 56px;
+    position: relative; }
+    .input_2 p input {
+      width: 320px;
+      height: 40px;
+      font-size: 18px;
+      line-height: 40px;
+      text-align: center;
+      position: relative;
+      top: 14px;
+      left: 15px;
+      background: #cccccc;
+      border: 0;
+      color: #fff;
+      cursor: pointer; }
+
+.app_login {
+  height: 50px;
+  margin: 50px 0 20px 10px; }
+  .app_login ul {
+    height: 50px;
+    margin-top: 15px;
+    line-height: 50px;
+    background: #f8f8f8;
+    position: relative; }
+    .app_login ul li {
+      width: 106px;
+      height: 24px;
+      float: left;
+      font-size: 12px;
+      display: inline-block;
+      margin-left: 10px; }
+    .app_login ul li.reg {
+      background: #f60;
+      width: 80px;
+      height: 24px;
+      color: #fff;
+      margin-top: 10px; }
+      .app_login ul li.reg #size {
+        color: #fff;
+        display: block;
+        margin: -12px 0 0 10px; }
+    .app_login ul a {
+      color: #989898; }
+      .app_login ul a:hover {
+        color: #f00; }
+/**/
+.footer {
+  width: 1190px;
+  height: 142px;
+  margin: 0 auto; }
+  .footer #p1 {
+    text-align: center;
+    margin-bottom: 20px; }
+  .footer a, .footer #p1 {
+    color: #666666; }
