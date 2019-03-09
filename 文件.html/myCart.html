@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>进货单</title>
+    <link rel="stylesheet" href="css/myCart.css">
+</head>
+<body>
+    <div class="login"id="login">
+        <div class="login-pop">
+            <h4>用户登录
+                <img src="img/index/error.gif" id="login_close">
+            </h4>
+            <div class="warn" style="display:none"></div>
+            <input type="hidden">
+            <dl>
+                <dt>账   户：</dt>
+                <dd>
+                    <input type="text"id="login_username" name="userName"class="input"style="color:rgd(153,153,153);">
+                </dd>
+            </dl>
+            <dl>
+                <dt>密   码：  </dt>
+                <dd>
+                    <input id="login_password" name="password" type="password" class="input" style="color: rgb(153, 153, 153);">
+                </dd>
+            </dl>
+            <p>
+                <input type="checkbox" id="login_rememberMe" value="1">记住我的登录状态
+                <a href="http://member.99114.com/login/presonregister?backUrl=http://deal.99114.com/cart/myCart" class="register">免费注册</a>
+            </p>
+            <p>
+                <input type="button" id="login_button" value="登录" class="btn01">
+                <a href="http://member.99114.com/view/findpassword/passwordForm.jsp?siteId=1">忘记密码了？</a>
+            </p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-top">
+            <div class="header-top-content cf">
+                <a href="javascript:;" >
+                    <img src="img/index/logo.gif" >
+                </a>
+                <h2>我的进货单</h2>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <ul class="process process-1">
+                <p></p>
+                <li class="p1"><span>我的进货单</span></li>
+                <li class="p1"><span>确认订单</span></li>
+                <li class="p1"><span>付款</span></li>
+                <li class="p1"><span>供应商发货</span></li>
+                <li class="p1"><span>确认发货</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="middle_content">
+            <div class="confirm_main">
+                <div class="confirm-input cf ">
+                    <span class="m110"></span>
+                    <span class="fontRed">交易提醒：</span>
+                    为规避交易风险,建议您在订购货品前尽量选择已通过网库认证资质的供应商,选择线上交易更安全
+                </div>
+                <div class="confirm-input ">
+                    <span class="m110"></span>
+                    <span class="prompt"></span>
+                    您还没有登录！登录后可查看是否享有内部价,并将进货单的商品保存到您的账号中！
+                    <span><a href="javascript:;"class="login-1">立即登录</a></span>
+                </div>
+            </div>
+        </div>
+    <div id="footer">
+        <div class="footer-wrap wrap">
+            <div class="footer-text">
+                <h3>您的进货单还是空的，赶快行动吧！</h3>
+                <div>马上去&nbsp;&nbsp;
+                    <a href="index.html" class="footer-btn">
+                        <span>采购</span>
+                    </a> &nbsp;或&nbsp;
+                    <a href="login.html"class="footer-btn">
+                        <span>发布采购</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/myCart.js"></script>
+</body>
+</html>

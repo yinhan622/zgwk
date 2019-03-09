@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>用户登录</title>
+	<link rel="stylesheet" href="css/login.css">
+ </head>
+ <body>
+ <!-- 1.头部-->
+ <header id="top">
+	 <div class="top">
+		 <!--1.1 logo图片 和字体-->
+		 <div class="header">
+			 <a href="#"><img src="img/login/wk_logo.png"/></a>
+			 <span>会员登录</span>
+		 </div>
+		 <!--1.2 中间部分-->
+		 <p class="header-p">
+			 <img src="img/login/bdts.png"/><a href="#"> 养生秋葵茶 显示特惠会员秒杀</a>
+		 </p>
+		 <!--1.3 右侧图片-->
+		<img class="picture" src="img/login/rBADu1v9YTSAEHdyAABoordsu1w638.jpg" alt="M站"/>
+	 </div>
+ </header>
+ <!-- 2.主体-->
+ <section id="container">
+	 <div id="cover">
+				<!--登录框-->
+				<form action="">
+					<div class="login">
+						<!--2.1登录名-->
+						<div class="login_top">
+							<ul>
+								<li id="login-bo"><span>扫码登录</span></li>
+								<li class="on">账户登录</li>
+							</ul>
+						</div>
+						<!--2.2 中间 登录 用户名 密码-->
+						<div class="input_1">
+							<p class="name">
+								<span><img src="img/login/login.png" ></span>
+								<input name="username"type="text" id="uname"placeholder="会员名 / 邮箱 / 手机号"tabindex="1"size="25">
+							</p>
+							<div class="vali_info">10个字符以内的字母</div>
+							<p class="upwd">
+								<span><img src="img/login/logind.png" ></span>
+								<input name="pwd"type="password" id="upwd"placeholder="输入密码"tabindex="1"size="25">
+							</p>
+							<header class="vali_info">6个字符以内的字</header>
+						</div>
+						<!--2.3  中间 验证-->
+						<div class="input_2">
+							<div class="input-wrap">
+								<div class="code">
+									<img src="img/login/icon_dxdl.png" alt="">
+									<span>短信验证码</span>
+								</div>
+								<a href="#">忘记密码</a>
+							</div>
+							<p><input type="button" value="登录"class="but" id="button"></p>
+						</div>
+						<!-- 2.4 尾部好单品-->
+						<div class="app_login">
+							<ul class="APP">
+								<li><a href="#"><img src="img/login/icon_hdp.png" alt=""/>好单品APP扫码</a></li>
+								<li><a href="#"><img src="img/login/icon_dpt.png" alt=""/>单品通APP扫码</a></li>
+								<li class="reg"><a href="#" id="size"><img src="img/login/lg_zhuc.png" alt=""/>立即注册</a></li>
+							</ul>
+						</div>
+					</div>
+				</form>
+			</div>
+ </section>
+ <!-- 3. 尾部-->
+	 <div class="footer">
+		 <!-- 3.1 链接-->
+		 <p id="p1">
+			<a href="#">关于网库|</a>
+			<a href="#">联系我们|</a>
+			<a href="#">法律声明|</a>
+			<a href="#">营销中心|</a>
+			<a href="#">单品通|</a>
+			<a href="#">单品交易会|</a>
+			<a href="#">店铺大全|</a>
+			<a href="#">专题汇总|</a>
+			<a href="#">网站导航|</a>
+			<a href="#">集团邮箱|</a>
+			<a href="#">诚聘英才|</a>
+			<a href="#">友情链接|</a>
+			<a href="#">全站聚合</a>
+		</p>
+		 <!-- 3.2 版权-->
+		<p id="p1">版权所有：中国网库   ICP：京ICP备08102099号-10</p>
+		<p id="p1">地址：北京市东城区胜古中路甲一号蓝宝商务大厦402号    电话：010-64429077</p>
+		<p id="p1">传真：010-64451032    邮箱：kfb@99114.com</p>
+	 </div>
+		<script src="js/login.js"></script>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script>
+			
+		$("#button").click(function(){
+			
+			var name=$("uname").val();
+			var upwd=$("upwd").val();
+			
+			var url="http://127.0.0.1:6220/login?uname="+name+"&upwd="+upwd;
+			$.ajax({
+				type:"get",
+				url:url,
+				dataType:"JSON",
+				data:{uname:name,upwd:upwd},
+				success:function(result){
+					console.log(result)
+					if(result.code==1){
+						
+					}else{
+						alert("用户名或密码有误");
+					}
+
+				}
+			})
+		})
+		</script>
+ </body>
+</html>
