@@ -1,0 +1,45 @@
+{
+  "pages": [ 
+    "pages/index/index",
+    "pages/shoplist/shoplist",
+    "pages/my/my",
+    "pages/classify/index",
+    "pages/cart/cart"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f0f",
+    "navigationBarTitleText": "中国网库",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/pages/img/tabs/home.png",
+        "selectedIconPath": "/pages/img/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/classify/index",
+        "text": "分类",
+        "iconPath": "/pages/img/tabs/iconfont-list.png",
+        "selectedIconPath": "/pages/img/tabs/iconfont-list-active.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "/pages/img/tabs/home.png",
+        "selectedIconPath": "/pages/img/tabs/home-active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/pages/img/tabs/profile.png",
+        "selectedIconPath": "/pages/img/tabs/profile-active.png"
+      }
+    ]
+  }
+}

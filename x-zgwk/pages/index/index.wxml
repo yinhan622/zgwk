@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+<!--轮播图-->
+  <view class="slider">
+    <swiper autoplay>
+      <swiper-item wx:for="{{list}}" wx:key="index"> 
+        <image src="{{item.img_url}}" lazy-load mode="aspetFill"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+<!--九宫格-->
+<view class="index-nav">
+   <view class="nav-item" wx:for="{{navlist}}" wx:key="index">
+    <image src="{{item.img}}" lazy-load mode="aspecFill" bindtap="handleJump" data-id="{{item.id}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+</view>
+<view class="divider"></view>
+</view>

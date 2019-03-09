@@ -1,0 +1,22 @@
+/**index.wxss**/
+/**轮播图**/
+.slider,.slider swiper,.slider image{height:390rpx;width:100%;}
+/**九宫格**/
+.index-nav{
+   display:flex; flex-wrap:wrap;}
+.nav-item{width:33.333%;height:200rpx;
+  box-sizing: border-box; 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+   align-items: center;
+  font-size:14px;
+   border:1px solid #ddd;
+  border-right:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+ }
+ .nav-item:nth-child(3n){border-right: 0;}
+.nav-item image{width:102rpx;height: 102rpx;}
+/**分隔块**/
+.divider{background: #ddd;height:20px;}
+/**按钮**/
