@@ -1,0 +1,78 @@
+*{margin:0;padding:0;}
+body{font-size:12px;min-width:990px;background:#fff;position: relative;overflow-x:hidden; font-family:"Microsoft Yahei","Hiragino Sans GB","Arial";}
+ul{list-style:none;}
+a{outline:none;cursor:pointer;color:#606060;text-decoration:none;}
+
+.header{background:#fff;height:60px;}
+.header a{width:1190px; margin:0 auto; display:block; position: relative;}
+/*一、首页顶端图片*/
+.header-top{width:100%; height:30px;background:#fafafa;}
+.top-1{width:100%;height:30px;margin:0 auto;border-bottom:1px solid #dfdfdf;background:#fafafa;}
+.w1190{width:1190px;margin:0 auto;}
+.advertising{position:absolute;left:0;bottom:0;width:26px;height:16px;line-height:16px;text-align:center;color:#fff;background:#333;opacity:.3;}
+/* 登录 注册导航栏左 */
+.top-1-L{float:left;width:500px;height:30px;line-height:30px;color:#666;position:relative;}
+.top-1-L .phone{float:left;width:90px;position:relative;margin-right:6px;color:#666;border-left:1px solid #fafafa;border-right:1px solid #fafafa;}
+.phone img{float:left;margin:2px 3px 0 -18px;}
+#welcome{position:relative; line-height:30px;}
+.top-1-L a{color:#ff7200;}
+a.btn-login{display:inline-block;width:44px;height:30px;text-align:center;background:#f64400;color:#fff;}
+a.btn-reg{width:65px;height:30px; display:inline-block;color:#3c3c3c;background: #ddd; text-align:center; }
+   /* 登录 注册导航栏右 */
+.top-1-R{float:right;display:inline;}
+.top-1-R li{float:left;height:30px;text-align:center;}
+.snMenu{padding:6px 11px; position:relative;}
+.top-1-R li a{color:#666; height:31px; }
+
+/* 头部左边头 */
+.seek-wrap{width:1190px;height:110px;margin:0 auto;}
+.seek-left{float:left;margin-top:20px;}
+.seek-left a{float:left;margin-right:10px;}
+.seek{float:left;width:588px;height:70px;margin:20px 0 0 75px; overflow:visible;}
+.seek-fi a:hover{color:#f60}
+#list{width:584px; height:100%; position: absolute;left:0px;top:40px;
+border:1px solid #cecece; display:none;z-index: 100;background:#fff;}
+#list>li{padding:0 10px; border-bottom:1px solid #cecece; list-style:none;line-height:40px; cursor: pointer; }
+#list>li:last-child{
+    border-bottom: none;
+}
+#list>li:hover{
+    background:chartreuse;
+}
+
+    /*  头部中间input */
+.goods{position: absolute;left:0;top:0;width:78px;height:36px;line-height:36px;border:2px solid #f64400; border-right:0;}
+.goods span{padding-left:12px;}
+.input{position:relative;height:40px;}
+.input-btn{float:left;width:418px;height:20px;line-height:20px;background:#fff;padding:8px 0 8px 90px;border:2px solid #f64400;font-size:14px;border-left:0;border-right:0;}
+.input-btn2{float:left;width:80px;height:40px;background:#f64400;overflow:hidden;color:#fff;font-size:16px;border:0;}
+
+.seek-fi{width:558px;height:25px;line-height: 25px;overflow:hidden;}
+.seek-fi span{color:#3c3c3c;}
+.seek-fi  a{padding:0 15px 0 0;color:#3c3c3c;}
+
+   /* 头部右1 */
+.seek-right{float:left;margin:21px;color:#666;}
+.seek-right a{color:#f64400;display:inline-block;margin-top:2px;}
+    /* 头部右2 */
+    .code{float:right;width:200px;position: relative;left:60px;top:-64px;}
+    .code img{width:200px;height:80px;vertical-align:middle;}
+.code span{position: absolute;left: 0; bottom: 0;line-height: 16px;height: 16px;
+    width: 26px;text-align: center;font-size: 12px;text-decoration: none;color: #fff;background: #333;    opacity: .3;
+    border-radius: 3px;}
+
+    /*查找商品导航栏左侧 */
+.headernav{width:100%;height:40px;border-bottom:5px solid #dfdfdf;}
+.headernav-wrap{width:1190px;height:40px;position:relative;margin:0 auto;}
+.headernav-left{width:1300px;height:40px;float:left;}
+.headernav-left li.category{width:180px;height:40px;cursor:pointer;line-height:40px;font-size:16px;color:#fff; background:#f64400;}
+.headernav-left ul li{width:126px; position:relative;height:40px;float:left;text-align:center; line-height:40px;font-size:16px;}
+li.category img{position: absolute;left:-16px;}
+li.category span{vertical-align:top;margin-left:-32px;}
+li.right-1 {float:left; width:90px; font-size:14px;text-align: center;padding:0 42px;margin-top:10px; }
+li.right-1>a {color:#f64400; display: block;height: 22px; line-height: 22px;
+    background: #fff; border-radius: 3px; padding: 0 8px;}
+.headernav-left li:not([category])>a:hover{color:#f60;border-bottom:2px solid #f60;width:64px;padding-bottom:8px;} 
+.headernav-left li.right-1>a:hover,li.right-2>a:hover{background:#f64400; color:#fff;width:90px;height:22px;padding:0;}
+.headernav-left li.right-2>a:hover{width:70px;}
+

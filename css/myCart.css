@@ -1,0 +1,71 @@
+*{margin:0;padding:0;border:0; outline:none;font-size: 12px;}
+a{text-decoration: none;}
+ul{list-style:none;}
+/*登录框*/
+.login{position:fixed;bottom:50%;left:50%;display:block;display:none;}
+.login-pop{width:398px;height:auto;padding:0 0 96px 0;border:8px solid #595959;
+    background: #fff;position: absolute;top:50%;left:50%;}
+.login-pop h4{width:378px;height:40px;line-height:40px;color:#fff;background: #ff6600;padding:0 0 0 20px;
+font-size: 14px;text-align:left;font-weight: bold;margin:0 0 20px 0;}
+.login-pop h4 img{width:13px;height:15px;float:right;margin:15px 27px 0 0;cursor: pointer;}
+.warn{padding:15px 18px;line-height: 28px;background: #fdf4ef;border:1px solid #f8d0ba;border-radius:5px; }
+.login-pop dl{width:378px;height:30px;line-height:30px;float:left;margin:0 0 14px 0;}
+.login-pop dl dt{width: 58px; text-align: right;font-size: 12px;color: #757575;
+    float: left; line-height: 30px;}
+.login-pop  dl dd { float: left; }   
+
+
+.input{width: 283px; height: 28px; border: 1px solid #dbdbdb;line-height: 28px;
+  padding-left: 5px; vertical-align: middle;}
+.login-pop p input{margin:0 5px 0 0;vertical-align: middle;position: relative;}
+.login-pop p{color:#757575;height:36px;overflow:hidden;line-height: 18px;text-align: left;padding:0 0 0 58px;position: relative;}
+.login-pop p a.register{position: absolute; right:48px;}
+.btn01 { width: 100px;height: 38px;line-height: 38px;background: url(../img/index/btn.gif) left top no-repeat;
+    cursor: pointer; border: none; font-weight: bold;color:#fff;}
+ .login-pop p a{color:#757575; }
+
+
+
+/*进货单头部*/
+.header{width:100%;height: 182px;}
+.header-top{height:85px;border-bottom:1px solid #ff6600;}
+.header-bottom{width:821px;height:130px;margin:0 auto;}
+.header-top-content a,h2{float: left;}
+.cf::after{content: '';display:block;clear: both;overflow: hidden;height: 0;}
+.cf a{display: inline-block;width:166px;height:54px;margin-top:25px;position: relative;}
+h2{position: absolute;top:40px;left:183px;}
+
+.process{height:98px;color:#3c3c3c;padding-top:23px;}
+.process p{width:701px;height:24px;margin-left:70px;
+background: url('../img/index/process-node.png')no-repeat left top;}
+.process li{float:left;text-align: center;width:164px;height:38px;line-height: 18px;padding-top: 10px;}
+/*中间交易提醒*/
+.middle_content{height:auto;margin-bottom:15px;border-top:1px solid #e5e5e5;}
+.confirm_main{width:1000px;margin:0 auto;}
+.confirm-input {    border: 1px solid #e7d3ac; height:30px;padding:0 5px;margin:10px 0 15px 0;background:#fffbdd;line-height: 30px;}
+.m110{width:19px;height:18px;display:inline-block;background: url('../img/index/icons.gif')no-repeat -321px -11px;vertical-align: middle;}
+.fontRed{font-style:normal;color:#fd1717;}
+.prompt{height:17px;margin-left:10px; padding-left:25px;line-height: 17px;background: url('../img/index/prompt_icon.png')no-repeat 0 0;overflow: hidden;}
+.confirm-input .login-1{display:inline-block; color:#fff;width:60px;height:20px;line-height: 20px;text-align: center;border-radius:2px;background:#f00;}
+
+
+/*尾部*/
+.footer{width:100%;background: #fff url('../img/index/nlgBg.gif')no-repeat;margin-top:15px;margin-bottom:50px;}
+.footer-wrap{width:1000px;height:316px; margin-bottom: 15px; }
+.wrap{margin:0 auto;}
+.footer-text{width:330px;height:75px;padding-top:150px;margin-left: 400px;}
+.footer-text h3{font-weight: bold;font-size: 14px;line-height: 45px;}
+a.footer-btn{display:inline-block;height:35px; width:98px;line-height: 35px;text-align: center;
+    color:#fff;font-weight: bold;font-size: 14px;background: url("../img/index/btnOrange.jpg") no-repeat left;}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+*{margin:0;padding:0;}
+body{font-size:12px;min-width:990px;background:#fff;position: relative;overflow-x:hidden; font-family:"Microsoft Yahei","Hiragino Sans GB","Arial";}
+ul{list-style:none;}
+a{outline:none;cursor:pointer;color:#606060;text-decoration:none;}
+
+.f1{float:left;}
+.t-clearfix:after,.t-clearfix:before{content:"";display:table; }
+.t-clearfix:after{clear:both;}
+.clearfix::after{content:"";display:block; clear:both;}
+
+/*面包导航*/
+.main{width:1190px;margin:0 auto;}
+.main-left{float:left;width:940px; margin-top:10px;}
+
+.now-adress{font-weight:600;line-height: 28px;}
+.sign ,.cat{display: inline; height:20px; line-height: 20px;margin-top:4px;color:#666;}
+a.sign {margin: 4px 5px;}
+.keys{color:#f60;margin-right:10px;}
+.total {margin: 4px 4px 0 4px;line-height: 20px;color: #f00;}
+
+.nav-bottom{margin-top:11px; }
+.nav-bottom-wrap{border:1px solid #e8e8e8;margin-top:-1px;}
+.row{position: relative;  margin: 0 8px;}
+.head {color: #999;border:0;margin-right:20px;margin-top:10px;}
+.head .title {float: left; max-width: 80px;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+.head h4 { font-weight: 400;font-size:12px;}
+.body{padding:0 100px 0 112px;}
+.body-wrap{height:36px;overflow: hidden;}
+.body-wrap>.item{float: left; margin: 9px 40px 9px 0; height: 18px;}
+.text{float: left;max-width: 140px; white-space: nowrap;
+    overflow: hidden;text-overflow: ellipsis;}
+/*排序*/
+.sort{margin-top:10px;height:41px;}
+.sort-warp{height:39px;background:#f5f5f5;border:1px solid #e8e8e8;border-left:0;}
+.sorts{line-height:39px;}
+.f1-left{background:#fff;}
+.sorts a.active{color:#f50;background:#fff;display: block;height:32px;border:0;}
+.icon-up-down{display: inline-block;width:7px;height:10px;margin-left:3px;
+background:url('../img/detalis/') no-repeat right top;}
+.sorts .link{border-right:1px solid #e5e5e5;display: block;padding:0 19px;color:#6d6d6d;margin-left:1px;}
+.site{height:39px;color:#6d6d6d;width:89px;border-right:1px solid #dfdfdf;}
+.site-countent{width:69px;height:39px;padding-left:20px;text-align: center;line-height: 39px;}
+
+span.text{display: inline-block;}
+.pager{float:right;line-height: 39px;}
+.styles .item{border-left:1px solid #e5e5e5; margin-left:-1px;}
+.pay{height:41px;}
+.pay-wrap{height:38px;border:1px solid #e8e8e8;border-top:0;padding-left:8px;}
+/******商品*******/
+.products-wrap{width:940px; height:100%;}
+.products-wrap .item{position: relative;width:216px;height:360px;margin-right:17px;
+margin-top:22px;float:left;border:1px solid #ededed;}
+.products-wrap  div.item-1{margin-right:0;}
+.AD{z-index: 9999; position: absolute;top:5px;right:5px;width:60px;height:60px;}
+
+.pic-box,.pic-box-inner{width:220px;height:220px;overflow:hidden;position:relative;}
+.pic{width:220px;height:220px;}
+.pic img{max-width:220px; }
+.line-wrap{margin-top:10px;margin-bottom: 8px;}
+.line{display:block;background: #f60;width:80px;height:26px;text-align: center;line-height: 26px;
+font-size:16px;color:#fff;margin-left:20px;}
+.red{color:#f60;}
+.line-1,.line-2,.line-3{padding:0 6px;margin: 4px 0;}
+
+.line-2{height:22px;line-height: 22px;overflow: hidden;}
+.line-left>.shopname>span{display:inline-block;color:#888; width:98px; overflow: hidden;white-space:nowrap;text-overflow:ellipsis;}
+.line-right{float:right;}
+.line-right img{height:16px;}
+.line-3{height:20px;overflow: hidden;}
+.fr{float:right;}
+.qq>a>img{width:21px;height:20px; }
+
+.f1>a>img{width:60px;}
+/******分页******/
+div>h6{
+    background: linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+/******商品 右侧******/
+
+
+
+
+
+#header iframe{width:100%;height:200px; margin:0 auto;}
+#footer iframe{width:100%;height:336px; margin:0 auto;}

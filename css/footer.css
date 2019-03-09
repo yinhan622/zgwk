@@ -1,0 +1,15 @@
+/*首页尾部*/
+ .footer{background:#f0f0f0;padding-bottom:10px;}
+ .footer-top{width:100%;height:40px;line-height: 40px;color:#bfbfbf;text-align: center;padding-top:20px;}
+ .w1190{width:1190px;margin:0 auto;}
+ .w1190>a{color:#999;padding:0 14px;}
+ 
+ .footer-bottom{text-align: center;background: #f0f0f0;}
+.footer-bottom>p{line-height: 28px;color:#999;}
+.footer-p2{padding-top:10px;padding-bottom:10px;}
+.footer-p2 a{display: inline-block; padding-left: 0;margin: 0 3px; height: 30px;width: 81px;}
+.footer-p2 a.img-1 { background: url(../img/index/pic1.png) no-repeat -235px -437px;}
+.footer-p2 a.img-2 {background: url(../img/index/pic1.png) no-repeat -330px -437px;}
+.footer-p2 a.img-3{background: url(../img/index/pic1.png) no-repeat -424px -437px;}
+.footer-p2 a.img-4{background: url(../img/index/pic1.png) no-repeat -519px -437px;}
+
